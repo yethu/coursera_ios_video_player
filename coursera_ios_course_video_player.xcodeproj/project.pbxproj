@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16D98F8A29FF9EF400290256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D98F8929FF9EF400290256 /* AppDelegate.swift */; };
+		16D98F8C29FF9EF400290256 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D98F8B29FF9EF400290256 /* SceneDelegate.swift */; };
+		16D98F8E29FF9EF400290256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D98F8D29FF9EF400290256 /* ViewController.swift */; };
+		16D98F9129FF9EF400290256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D98F8F29FF9EF400290256 /* Main.storyboard */; };
+		16D98F9329FF9EF600290256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D98F9229FF9EF600290256 /* Assets.xcassets */; };
+		16D98F9629FF9EF600290256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D98F9429FF9EF600290256 /* LaunchScreen.storyboard */; };
+		16D98FA129FF9EF600290256 /* coursera_ios_course_video_playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D98FA029FF9EF600290256 /* coursera_ios_course_video_playerTests.swift */; };
+		16D98FAB29FF9EF600290256 /* coursera_ios_course_video_playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D98FAA29FF9EF600290256 /* coursera_ios_course_video_playerUITests.swift */; };
+		16D98FAD29FF9EF600290256 /* coursera_ios_course_video_playerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D98FAC29FF9EF600290256 /* coursera_ios_course_video_playerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16D98F9D29FF9EF600290256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D98F7E29FF9EF400290256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D98F8529FF9EF400290256;
+			remoteInfo = coursera_ios_course_video_player;
+		};
+		16D98FA729FF9EF600290256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D98F7E29FF9EF400290256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D98F8529FF9EF400290256;
+			remoteInfo = coursera_ios_course_video_player;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16D98F8629FF9EF400290256 /* coursera_ios_course_video_player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coursera_ios_course_video_player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D98F8929FF9EF400290256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16D98F8B29FF9EF400290256 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16D98F8D29FF9EF400290256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16D98F9029FF9EF400290256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16D98F9229FF9EF600290256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16D98F9529FF9EF600290256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16D98F9729FF9EF600290256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D98F9C29FF9EF600290256 /* coursera_ios_course_video_playerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coursera_ios_course_video_playerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D98FA029FF9EF600290256 /* coursera_ios_course_video_playerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursera_ios_course_video_playerTests.swift; sourceTree = "<group>"; };
+		16D98FA629FF9EF600290256 /* coursera_ios_course_video_playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coursera_ios_course_video_playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D98FAA29FF9EF600290256 /* coursera_ios_course_video_playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursera_ios_course_video_playerUITests.swift; sourceTree = "<group>"; };
+		16D98FAC29FF9EF600290256 /* coursera_ios_course_video_playerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursera_ios_course_video_playerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16D98F8329FF9EF400290256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D98F9929FF9EF600290256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D98FA329FF9EF600290256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D98F7D29FF9EF400290256 = {
+			isa = PBXGroup;
+			children = (
+				16D98F8829FF9EF400290256 /* coursera_ios_course_video_player */,
+				16D98F9F29FF9EF600290256 /* coursera_ios_course_video_playerTests */,
+				16D98FA929FF9EF600290256 /* coursera_ios_course_video_playerUITests */,
+				16D98F8729FF9EF400290256 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16D98F8729FF9EF400290256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16D98F8629FF9EF400290256 /* coursera_ios_course_video_player.app */,
+				16D98F9C29FF9EF600290256 /* coursera_ios_course_video_playerTests.xctest */,
+				16D98FA629FF9EF600290256 /* coursera_ios_course_video_playerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16D98F8829FF9EF400290256 /* coursera_ios_course_video_player */ = {
+			isa = PBXGroup;
+			children = (
+				16D98F8929FF9EF400290256 /* AppDelegate.swift */,
+				16D98F8B29FF9EF400290256 /* SceneDelegate.swift */,
+				16D98F8D29FF9EF400290256 /* ViewController.swift */,
+				16D98F8F29FF9EF400290256 /* Main.storyboard */,
+				16D98F9229FF9EF600290256 /* Assets.xcassets */,
+				16D98F9429FF9EF600290256 /* LaunchScreen.storyboard */,
+				16D98F9729FF9EF600290256 /* Info.plist */,
+			);
+			path = coursera_ios_course_video_player;
+			sourceTree = "<group>";
+		};
+		16D98F9F29FF9EF600290256 /* coursera_ios_course_video_playerTests */ = {
+			isa = PBXGroup;
+			children = (
+				16D98FA029FF9EF600290256 /* coursera_ios_course_video_playerTests.swift */,
+			);
+			path = coursera_ios_course_video_playerTests;
+			sourceTree = "<group>";
+		};
+		16D98FA929FF9EF600290256 /* coursera_ios_course_video_playerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16D98FAA29FF9EF600290256 /* coursera_ios_course_video_playerUITests.swift */,
+				16D98FAC29FF9EF600290256 /* coursera_ios_course_video_playerUITestsLaunchTests.swift */,
+			);
+			path = coursera_ios_course_video_playerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16D98F8529FF9EF400290256 /* coursera_ios_course_video_player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D98FB029FF9EF600290256 /* Build configuration list for PBXNativeTarget "coursera_ios_course_video_player" */;
+			buildPhases = (
+				16D98F8229FF9EF400290256 /* Sources */,
+				16D98F8329FF9EF400290256 /* Frameworks */,
+				16D98F8429FF9EF400290256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coursera_ios_course_video_player;
+			productName = coursera_ios_course_video_player;
+			productReference = 16D98F8629FF9EF400290256 /* coursera_ios_course_video_player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16D98F9B29FF9EF600290256 /* coursera_ios_course_video_playerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D98FB329FF9EF600290256 /* Build configuration list for PBXNativeTarget "coursera_ios_course_video_playerTests" */;
+			buildPhases = (
+				16D98F9829FF9EF600290256 /* Sources */,
+				16D98F9929FF9EF600290256 /* Frameworks */,
+				16D98F9A29FF9EF600290256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D98F9E29FF9EF600290256 /* PBXTargetDependency */,
+			);
+			name = coursera_ios_course_video_playerTests;
+			productName = coursera_ios_course_video_playerTests;
+			productReference = 16D98F9C29FF9EF600290256 /* coursera_ios_course_video_playerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16D98FA529FF9EF600290256 /* coursera_ios_course_video_playerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D98FB629FF9EF600290256 /* Build configuration list for PBXNativeTarget "coursera_ios_course_video_playerUITests" */;
+			buildPhases = (
+				16D98FA229FF9EF600290256 /* Sources */,
+				16D98FA329FF9EF600290256 /* Frameworks */,
+				16D98FA429FF9EF600290256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D98FA829FF9EF600290256 /* PBXTargetDependency */,
+			);
+			name = coursera_ios_course_video_playerUITests;
+			productName = coursera_ios_course_video_playerUITests;
+			productReference = 16D98FA629FF9EF600290256 /* coursera_ios_course_video_playerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16D98F7E29FF9EF400290256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					16D98F8529FF9EF400290256 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					16D98F9B29FF9EF600290256 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 16D98F8529FF9EF400290256;
+					};
+					16D98FA529FF9EF600290256 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 16D98F8529FF9EF400290256;
+					};
+				};
+			};
+			buildConfigurationList = 16D98F8129FF9EF400290256 /* Build configuration list for PBXProject "coursera_ios_course_video_player" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16D98F7D29FF9EF400290256;
+			productRefGroup = 16D98F8729FF9EF400290256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16D98F8529FF9EF400290256 /* coursera_ios_course_video_player */,
+				16D98F9B29FF9EF600290256 /* coursera_ios_course_video_playerTests */,
+				16D98FA529FF9EF600290256 /* coursera_ios_course_video_playerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16D98F8429FF9EF400290256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D98F9629FF9EF600290256 /* LaunchScreen.storyboard in Resources */,
+				16D98F9329FF9EF600290256 /* Assets.xcassets in Resources */,
+				16D98F9129FF9EF400290256 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D98F9A29FF9EF600290256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D98FA429FF9EF600290256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16D98F8229FF9EF400290256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D98F8E29FF9EF400290256 /* ViewController.swift in Sources */,
+				16D98F8A29FF9EF400290256 /* AppDelegate.swift in Sources */,
+				16D98F8C29FF9EF400290256 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D98F9829FF9EF600290256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D98FA129FF9EF600290256 /* coursera_ios_course_video_playerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D98FA229FF9EF600290256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D98FAD29FF9EF600290256 /* coursera_ios_course_video_playerUITestsLaunchTests.swift in Sources */,
+				16D98FAB29FF9EF600290256 /* coursera_ios_course_video_playerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16D98F9E29FF9EF600290256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D98F8529FF9EF400290256 /* coursera_ios_course_video_player */;
+			targetProxy = 16D98F9D29FF9EF600290256 /* PBXContainerItemProxy */;
+		};
+		16D98FA829FF9EF600290256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D98F8529FF9EF400290256 /* coursera_ios_course_video_player */;
+			targetProxy = 16D98FA729FF9EF600290256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16D98F8F29FF9EF400290256 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D98F9029FF9EF400290256 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16D98F9429FF9EF600290256 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D98F9529FF9EF600290256 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16D98FAE29FF9EF600290256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16D98FAF29FF9EF600290256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16D98FB129FF9EF600290256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coursera_ios_course_video_player/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hypakore.coursera-ios-course-video-player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16D98FB229FF9EF600290256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coursera_ios_course_video_player/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hypakore.coursera-ios-course-video-player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16D98FB429FF9EF600290256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hypakore.coursera-ios-course-video-playerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coursera_ios_course_video_player.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coursera_ios_course_video_player";
+			};
+			name = Debug;
+		};
+		16D98FB529FF9EF600290256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hypakore.coursera-ios-course-video-playerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coursera_ios_course_video_player.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coursera_ios_course_video_player";
+			};
+			name = Release;
+		};
+		16D98FB729FF9EF600290256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hypakore.coursera-ios-course-video-playerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coursera_ios_course_video_player;
+			};
+			name = Debug;
+		};
+		16D98FB829FF9EF600290256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hypakore.coursera-ios-course-video-playerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coursera_ios_course_video_player;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D98F8129FF9EF400290256 /* Build configuration list for PBXProject "coursera_ios_course_video_player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D98FAE29FF9EF600290256 /* Debug */,
+				16D98FAF29FF9EF600290256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D98FB029FF9EF600290256 /* Build configuration list for PBXNativeTarget "coursera_ios_course_video_player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D98FB129FF9EF600290256 /* Debug */,
+				16D98FB229FF9EF600290256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D98FB329FF9EF600290256 /* Build configuration list for PBXNativeTarget "coursera_ios_course_video_playerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D98FB429FF9EF600290256 /* Debug */,
+				16D98FB529FF9EF600290256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D98FB629FF9EF600290256 /* Build configuration list for PBXNativeTarget "coursera_ios_course_video_playerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D98FB729FF9EF600290256 /* Debug */,
+				16D98FB829FF9EF600290256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16D98F7E29FF9EF400290256 /* Project object */;
+}
